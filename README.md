@@ -4,7 +4,7 @@ usage
 ```json
 {
   "extends": [
-      "github>tsuyoshicho/renovate-config"
-   ]
+    "github>tsuyoshicho/renovate-config"
+  ]
 }
 ```
