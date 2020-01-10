@@ -5,5 +5,11 @@
   "extends": [
     "config:base"
   ],
-  "semanticCommits": true
+  "semanticCommits": true,
+  "lockFileMaintenance": {
+    "enabled": true
+  },
+  "vulnerabilityAlerts": {
+    "enabled": true
+  }
 }
