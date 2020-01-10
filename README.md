@@ -1,2 +1,10 @@
 # renovate-config
-renovate config repo
+usage
+
+```json
+{
+  "extends": [
+      "github>tsuyoshicho/renovate-config"
+   ]
+}
+```
