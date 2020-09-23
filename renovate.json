@@ -1,7 +1,4 @@
 {
-  "npm": {
-    "enabled": true
-  },
   "extends": [
     "config:base"
   ],
@@ -10,15 +7,19 @@
     "every weekend"
   ],
   "semanticCommits": true,
+  "labels": [
+    "renovate"
+  ],
+  "npm": {
+    "enabled": true
+  },
   "lockFileMaintenance": {
     "enabled": true
   },
   "vulnerabilityAlerts": {
     "enabled": true
   },
-  "labels": [
-    "renovate"
-  ],
+  "rangeStrategy": "replace",
   "patch": {
     "automerge": true
   },
