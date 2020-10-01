@@ -1,10 +1,10 @@
 {
   "extends": [
-    "config:base"
-  ],
-  "timezone": "Asia/Tokyo",
-  "schedule": [
-    "every weekend"
+    "config:base",
+    ":timezone(Asia/Tokyo)",
+    "github>hatena/renovate-config:schedule",
+    "github>hatena/renovate-config:automergePin",
+    "github>hatena/renovate-config:automergeTypesMinor"
   ],
   "semanticCommits": "enabled",
   "labels": [
