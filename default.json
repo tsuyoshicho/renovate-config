@@ -1,10 +1,10 @@
 {
   "extends": [
-    "config:base"
-  ],
-  "timezone": "Asia/Tokyo",
-  "schedule": [
-    "every weekend"
+    "config:base",
+    ":timezone(Asia/Tokyo)",
+    "github>tsuyoshicho/renovate-config:schedule",
+    "github>tsuyoshicho/renovate-config:automergePin",
+    "github>tsuyoshicho/renovate-config:automergeDevMinor"
   ],
   "semanticCommits": "enabled",
   "labels": [
@@ -19,16 +19,5 @@
   "vulnerabilityAlerts": {
     "enabled": true
   },
-  "rangeStrategy": "replace",
-  "patch": {
-    "automerge": true
-  },
-  "packageRules": [
-    {
-      "depTypeList": [
-        "devDependencies"
-      ],
-      "automerge": true
-    }
-  ]
+  "rangeStrategy": "replace"
 }

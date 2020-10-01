@@ -1,0 +1,8 @@
+{
+  "extends": [
+    ":timezone(Asia/Tokyo)"
+  ],
+  "schedule": [
+    "every weekend"
+  ]
+}
