@@ -6,7 +6,7 @@
   "schedule": [
     "every weekend"
   ],
-  "semanticCommits": true,
+  "semanticCommits": "enabled",
   "labels": [
     "renovate"
   ],
