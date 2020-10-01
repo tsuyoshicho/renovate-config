@@ -2,9 +2,9 @@
   "extends": [
     "config:base",
     ":timezone(Asia/Tokyo)",
-    "github>hatena/renovate-config:schedule",
-    "github>hatena/renovate-config:automergePin",
-    "github>hatena/renovate-config:automergeTypesMinor"
+    "github>tsuyoshicho/renovate-config:schedule",
+    "github>tsuyoshicho/renovate-config:automergePin",
+    "github>tsuyoshicho/renovate-config:automergeTypesMinor"
   ],
   "semanticCommits": "enabled",
   "labels": [
