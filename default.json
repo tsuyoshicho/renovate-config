@@ -20,15 +20,4 @@
     "enabled": true
   },
   "rangeStrategy": "replace",
-  "patch": {
-    "automerge": true
-  },
-  "packageRules": [
-    {
-      "depTypeList": [
-        "devDependencies"
-      ],
-      "automerge": true
-    }
-  ]
 }

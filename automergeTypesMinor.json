@@ -1,8 +1,8 @@
 {
   "packageRules": [
     {
-      "packagePatterns": [
-        "^@types/"
+      "depTypeList": [
+        "devDependencies"
       ],
       "automerge": true,
       "major": {
