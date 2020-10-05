@@ -2,8 +2,9 @@
   "extends": [
     "config:base",
     ":timezone(Asia/Tokyo)",
+    ":preserveSemverRanges",
     "github>tsuyoshicho/renovate-config:schedule",
-    "github>tsuyoshicho/renovate-config:automergePin",
+    ":automergePatch",
     "github>tsuyoshicho/renovate-config:automergeDevMinor"
   ],
   "semanticCommits": "enabled",
@@ -18,6 +19,5 @@
   },
   "vulnerabilityAlerts": {
     "enabled": true
-  },
-  "rangeStrategy": "replace"
+  }
 }
