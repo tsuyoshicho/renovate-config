@@ -1,10 +1,14 @@
 # renovate-config
-usage
+
+## usage
+
+store in `.github/`.
 
 ```json
 {
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "github>tsuyoshicho/renovate-config"
+    "local>tsuyoshicho/renovate-config"
   ]
 }
 ```
