@@ -2,7 +2,7 @@
 
 ## usage
 
-store in `.github/`.
+store in `.github/renovate.json`.
 
 ```json
 {
