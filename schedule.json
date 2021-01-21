@@ -1,8 +1,23 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    ":timezone(Asia/Tokyo)"
+    "config:base",
+    ":timezone(Asia/Tokyo)",
+    ":preserveSemverRanges"
   ],
+  "semanticCommits": "enabled",
+  "labels": [
+    "renovate"
+  ],
+  "npm": {
+    "enabled": true
+  },
+  "lockFileMaintenance": {
+    "enabled": true
+  },
+  "vulnerabilityAlerts": {
+    "enabled": true
+  },
   "schedule": [
     "every weekend"
   ]
