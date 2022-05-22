@@ -3,7 +3,10 @@
   "extends": [
     ":timezone(Asia/Tokyo)"
   ],
-  "schedule": [
-    "every weekend"
-  ]
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": [
+      "every weekend"
+    ]
+  }
 }

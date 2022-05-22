@@ -2,7 +2,7 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:base",
-    ":timezone(Asia/Tokyo)",
+    ":prHourlyLimitNone",
     ":preserveSemverRanges",
     "github>tsuyoshicho/renovate-config:schedule",
     ":automergePatch",
@@ -12,12 +12,6 @@
   "labels": [
     "renovate"
   ],
-  "npm": {
-    "enabled": true
-  },
-  "lockFileMaintenance": {
-    "enabled": true
-  },
   "vulnerabilityAlerts": {
     "enabled": true
   }
