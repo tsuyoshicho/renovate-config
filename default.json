@@ -8,6 +8,9 @@
     ":automergePatch",
     "github>tsuyoshicho/renovate-config:automergeDevMinor"
   ],
+  "reviewers": [
+    "tsuyoshicho"
+  ],
   "semanticCommits": "enabled",
   "labels": [
     "renovate"
