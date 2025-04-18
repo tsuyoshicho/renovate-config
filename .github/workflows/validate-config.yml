@@ -1,6 +1,8 @@
 ---
 name: Validate renovate config
 on:
+  schedule:
+    - cron:  '5 4 7 * *'
   push:
     branches: [master]
     paths-ignore:
@@ -8,6 +10,8 @@ on:
   pull_request:
     paths-ignore:
       - '**.md'
+  workflow_dispatch:
+
 jobs:
   build:
     runs-on: ubuntu-latest
