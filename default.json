@@ -6,7 +6,8 @@
     ":preserveSemverRanges",
     "github>tsuyoshicho/renovate-config:schedule",
     ":automergePatch",
-    "github>tsuyoshicho/renovate-config:automergeDevMinor"
+    "github>tsuyoshicho/renovate-config:automergeDevMinor",
+    "npm:unpublishSafe"
   ],
   "reviewers": [
     "tsuyoshicho"
