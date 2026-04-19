@@ -3,7 +3,6 @@
   "packageRules": [
     {
       "matchDepTypes": ["docker"],
-      "followTag": true,
       "pinDigests": true,
       "automerge": true,
       "reviewers": [
