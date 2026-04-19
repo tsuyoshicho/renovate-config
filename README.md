@@ -12,3 +12,10 @@ store in `.github/renovate.json`.
   ]
 }
 ```
+
+## presets
+
+- `default`: main config with best practices, reviewers, semantic commits, vulnerability alerts.
+- `schedule`: timezone Asia/Tokyo, lock file maintenance every weekend, automerge weekends.
+- `automerge`: platform automerge enabled, rules for patch, dev minor, dev major.
+- `docker`: rules for Docker images, follow latest tags with SHA pin, automerge on weekends.

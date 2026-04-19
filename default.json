@@ -5,8 +5,8 @@
     ":prHourlyLimitNone",
     ":preserveSemverRanges",
     "github>tsuyoshicho/renovate-config:schedule",
-    ":automergePatch",
-    "github>tsuyoshicho/renovate-config:automergeDevMinor",
+    "github>tsuyoshicho/renovate-config:automerge",
+    "github>tsuyoshicho/renovate-config:docker",
     "npm:unpublishSafe"
   ],
   "reviewers": [
