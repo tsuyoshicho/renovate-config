@@ -1,0 +1,19 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:best-practices",
+    ":prHourlyLimitNone",
+    ":preserveSemverRanges",
+    "npm:unpublishSafe"
+  ],
+  "reviewers": [
+    "tsuyoshicho"
+  ],
+  "semanticCommits": "enabled",
+  "labels": [
+    "renovate"
+  ],
+  "vulnerabilityAlerts": {
+    "enabled": true
+  }
+}

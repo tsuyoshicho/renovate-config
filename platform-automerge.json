@@ -1,7 +1,10 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "local>tsuyoshicho/renovate-config"
+    "local>tsuyoshicho/renovate-config:base",
+    "local>tsuyoshicho/renovate-config:schedule",
+    "local>tsuyoshicho/renovate-config:automerge",
+    "local>tsuyoshicho/renovate-config:docker"
   ],
   "platformAutomerge": true,
   "packageRules": [
