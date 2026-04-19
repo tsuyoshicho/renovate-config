@@ -15,7 +15,8 @@ store in `.github/renovate.json`.
 
 ## presets
 
-- `default`: main config with best practices, reviewers, semantic commits, vulnerability alerts.
-- `schedule`: timezone Asia/Tokyo, lock file maintenance every weekend, automerge weekends.
-- `automerge`: platform automerge enabled, rules for patch, dev minor, dev major.
-- `docker`: rules for Docker images, follow latest tags with SHA pin, automerge on weekends.
+- `default`: main config with best practices, reviewers, semantic commits, vulnerability alerts, platformAutomerge off.
+- `schedule`: timezone Asia/Tokyo, PR creation on weekday nights, automerge weekends.
+- `automerge`: rules for patch, dev minor, dev major; platformAutomerge is not enabled in the default preset.
+- `docker`: rules for Docker images, follow latest tags with SHA pin, reviewer required, automerge on weekends after approval.
+- `renovate-automerge-config`: alternate entrypoint that extends the default config and enables platformAutomerge.
