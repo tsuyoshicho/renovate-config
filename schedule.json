@@ -1,12 +1,14 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    ":timezone(Asia/Tokyo)"
+    ":timezone(Asia/Tokyo)",
+    "schedule:automergeWeekends"
   ],
-  "lockFileMaintenance": {
-    "enabled": true,
-    "schedule": [
-      "every weekend"
-    ]
-  }
+  "schedule": [
+    "after 10pm on monday",
+    "after 10pm on tuesday",
+    "after 10pm on wednesday",
+    "after 10pm on thursday",
+    "after 10pm on friday"
+  ]
 }
