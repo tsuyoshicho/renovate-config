@@ -10,8 +10,5 @@
     "after 10pm on wednesday",
     "after 10pm on thursday",
     "after 10pm on friday"
-  ],
-  "automergeSchedule": [
-    "every weekend"
   ]
 }
