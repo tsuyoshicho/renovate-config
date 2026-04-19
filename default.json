@@ -1,22 +1,9 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:best-practices",
-    ":prHourlyLimitNone",
-    ":preserveSemverRanges",
-    "github>tsuyoshicho/renovate-config:schedule",
-    "github>tsuyoshicho/renovate-config:automerge",
-    "github>tsuyoshicho/renovate-config:docker",
-    "npm:unpublishSafe"
-  ],
-  "reviewers": [
-    "tsuyoshicho"
-  ],
-  "semanticCommits": "enabled",
-  "labels": [
-    "renovate"
-  ],
-  "vulnerabilityAlerts": {
-    "enabled": true
-  }
+    "local>tsuyoshicho/renovate-config:base",
+    "local>tsuyoshicho/renovate-config:schedule",
+    "local>tsuyoshicho/renovate-config:automerge",
+    "local>tsuyoshicho/renovate-config:docker"
+  ]
 }
