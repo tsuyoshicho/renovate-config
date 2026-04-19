@@ -3,5 +3,12 @@
   "extends": [
     "local>tsuyoshicho/renovate-config"
   ],
-  "platformAutomerge": true
+  "platformAutomerge": true,
+  "packageRules": [
+    {
+      "matchDepTypes": ["devDependencies"],
+      "matchUpdateTypes": ["major"],
+      "automerge": true
+    }
+  ]
 }
