@@ -1,0 +1,14 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchDepTypes": ["docker"],
+      "pinDigests": true,
+      "automerge": true,
+      "reviewers": [
+        "tsuyoshicho"
+      ],
+      "schedule": ["every weekend"]
+    }
+  ]
+}
