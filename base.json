@@ -4,16 +4,20 @@
     "config:best-practices",
     ":prHourlyLimitNone",
     ":preserveSemverRanges",
-    "npm:unpublishSafe"
+    ":npm",
+    ":renovatePrefix",
+    ":enableVulnerabilityAlerts",
+    "local>tsuyoshicho/renovate-config:schedule",
+    "local>tsuyoshicho/renovate-config:automerge",
+    "local>tsuyoshicho/renovate-config:lockfile-maintenance",
+    "local>tsuyoshicho/renovate-config:docker"
   ],
   "reviewers": [
     "tsuyoshicho"
   ],
+  "dependencyDashboard": true,
   "semanticCommits": "enabled",
   "labels": [
     "renovate"
-  ],
-  "vulnerabilityAlerts": {
-    "enabled": true
-  }
+  ]
 }
