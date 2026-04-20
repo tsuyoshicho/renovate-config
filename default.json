@@ -4,6 +4,7 @@
     "local>tsuyoshicho/renovate-config:base",
     "local>tsuyoshicho/renovate-config:schedule",
     "local>tsuyoshicho/renovate-config:automerge",
+    "local>tsuyoshicho/renovate-config:lockfile-maintenance",
     "local>tsuyoshicho/renovate-config:docker"
   ]
 }
